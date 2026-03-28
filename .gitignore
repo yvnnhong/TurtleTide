@@ -1,0 +1,5 @@
+turtletide-key.json
+.env
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
