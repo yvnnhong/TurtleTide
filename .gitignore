@@ -3,3 +3,9 @@ turtletide-key.json
 terraform/.terraform/
 terraform/terraform.tfstate
 terraform/terraform.tfstate.backup
+driveroutput.*
+output/
+logs/
+*.jar
+__pycache__/
+*.pyc
