@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: fct_turtle_sightings
+    description: "Cleaned and enriched turtle sighting facts with ocean basin"
+    columns:
+      - name: occurrence_id
+        description: "Unique occurrence identifier"
+        tests:
+          - not_null
+      - name: latitude
+        description: "Decimal latitude"
+        tests:
+          - not_null
+      - name: longitude
+        description: "Decimal longitude"
+        tests:
+          - not_null
+      - name: ocean_basin
+        description: "Derived ocean basin from coordinates"
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['North Pacific', 'North Atlantic', 'South Atlantic', 'Indian Ocean', 'South Pacific', 'Other']
+
+  - name: rpt_basin_anomalies
+    description: "Monthly aggregated sightings per ocean basin and species"
+    columns:
+      - name: ocean_basin
+        description: "Ocean basin name"
+        tests:
+          - not_null
+      - name: sighting_count
+        description: "Number of sightings"
+        tests:
+          - not_null

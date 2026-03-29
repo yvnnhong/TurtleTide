@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: turtletide_silver
+    project: manifest-stream-452700-g7
+    dataset: turtletide_silver
+    tables:
+      - name: occurrences

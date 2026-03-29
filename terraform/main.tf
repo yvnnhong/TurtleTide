@@ -37,3 +37,8 @@ resource "google_bigquery_dataset" "gold" {
   dataset_id = "turtletide_gold"
   location   = var.region
 }
+
+resource "google_bigquery_dataset" "silver" {
+  dataset_id = "turtletide_silver"
+  location   = var.region
+}
