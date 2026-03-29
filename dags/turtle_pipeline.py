@@ -101,6 +101,29 @@ def run_dataproc_transform_fn():
         operation.result()
         print("Cluster deleted!")
 
+def score_anomalies_fn():
+    import sys
+    sys.path.insert(0, '/opt/airflow/ml')
+    from stl_anomaly_scorer import main
+    main()
+
+
+def notify_on_anomalies_fn():
+    import os
+    import pandas as pd
+
+    results_path = '/opt/airflow/ml/anomaly_results.csv'
+    if not os.path.exists(results_path):
+        print("No anomaly results file found — skipping notification")
+        return
+
+    df = pd.read_csv(results_path)
+    total = df['anomaly_count'].sum()
+    print(f"Anomaly summary:")
+    for _, row in df.iterrows():
+        print(f"  {row['ocean_basin']} / {row['scientific_name']}: {row['anomaly_count']} anomalies")
+    print(f"Total anomalies detected: {total}")
+
 
 # ---------------------------------------------------------------------------
 # DAG definition
@@ -141,12 +164,11 @@ with DAG(
 
     score_anomalies = PythonOperator(
         task_id='score_anomalies',
-        python_callable=lambda: print("STL anomaly scoring — stub"),
+        python_callable=score_anomalies_fn,
     )
 
     notify_on_anomalies = PythonOperator(
         task_id='notify_on_anomalies',
-        python_callable=lambda: print("Anomaly notification — stub"),
+        python_callable=notify_on_anomalies_fn,
     )
-
     check_api_health >> fetch_obis_data >> run_dataproc_transform >> run_dbt_models >> run_dbt_tests >> score_anomalies >> notify_on_anomalies

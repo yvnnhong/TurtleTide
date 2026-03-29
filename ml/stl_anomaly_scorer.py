@@ -5,7 +5,9 @@ import mlflow.sklearn
 from google.cloud import bigquery
 from statsmodels.tsa.seasonal import STL
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:/Users/yvonn/TurtleTide/turtletide-key.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.environ.get(
+    "GOOGLE_APPLICATION_CREDENTIALS", "C:/Users/yvonn/TurtleTide/turtletide-key.json"
+)
 
 PROJECT = "manifest-stream-452700-g7"
 DATASET = "turtletide_gold"
