@@ -1,0 +1,4 @@
+ocean_basin,scientific_name,n_months,anomaly_count,mean_residual,std_residual
+Indian Ocean,Dermochelys coriacea,33,2,8.0101,43.7218
+North Atlantic,Dermochelys coriacea,225,9,6.1982,24.5699
+South Atlantic,Dermochelys coriacea,168,9,4.0611,10.8977
