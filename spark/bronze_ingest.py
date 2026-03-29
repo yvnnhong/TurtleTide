@@ -11,6 +11,9 @@ GCS_CREDENTIALS = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
 # OBIS config
 SPECIES = {
     "dermochelys_coriacea": 137209,  # Leatherback
+    "chelonia_mydas": 137206,        # Green Turtle
+    "caretta_caretta": 137205,       # Loggerhead
+    "eretmochelys_imbricata": 137772, # Hawksbill
 }
 PAGE_SIZE = 10000
 MAX_RECORDS = 50000 #temporary - remove it after we've verified that the pipeline works 

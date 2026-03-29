@@ -84,7 +84,7 @@ view_state = pdk.ViewState(latitude=0, longitude=0, zoom=1)
 st.pydeck_chart(pdk.Deck(
     layers=[layer],
     initial_view_state=view_state,
-    map_style="mapbox://styles/mapbox/dark-v10"
+    map_style="https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
 ))
 
 # ── Metrics row ────────────────────────────────────────────────────
