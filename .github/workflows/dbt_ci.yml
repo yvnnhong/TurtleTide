@@ -37,7 +37,7 @@ jobs:
                 method: service-account
                 project: manifest-stream-452700-g7
                 dataset: turtletide_gold
-                keyfile: turtletide-key.json
+                keyfile: ${{ github.workspace }}/turtletide-key.json
                 location: US
                 threads: 4
                 job_execution_timeout_seconds: 300
