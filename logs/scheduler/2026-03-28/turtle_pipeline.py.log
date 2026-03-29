@@ -1667,3 +1667,518 @@
 [2026-03-28T05:57:55.547+0000] {logging_mixin.py:188} INFO - [2026-03-28T05:57:55.546+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-03-28T05:57:55.661+0000] {logging_mixin.py:188} INFO - [2026-03-28T05:57:55.660+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
 [2026-03-28T05:57:55.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.532 seconds
+[2026-03-28T23:22:49.804+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:22:49.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:22:49.813+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:22:49.812+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:22:49.888+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:22:49.961+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:22:49.960+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:22:50.015+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:22:50.015+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:22:50.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.278 seconds
+[2026-03-28T23:23:20.289+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:23:20.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:23:20.342+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:23:20.341+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:23:20.458+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:23:20.853+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:23:20.852+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:23:20.902+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:23:20.901+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:23:20.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.712 seconds
+[2026-03-28T23:23:51.457+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:23:51.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:23:51.464+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:23:51.463+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:23:51.556+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:23:51.619+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:23:51.618+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:23:51.665+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:23:51.664+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:23:51.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.265 seconds
+[2026-03-28T23:24:21.971+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:24:21.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:24:21.983+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:24:21.982+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:24:22.092+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:24:22.169+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:24:22.168+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:24:22.211+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:24:22.210+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:24:22.264+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.307 seconds
+[2026-03-28T23:24:52.892+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:24:52.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:24:52.898+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:24:52.898+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:24:52.942+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:24:53.000+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:24:53.000+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:24:53.034+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:24:53.034+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:24:53.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.193 seconds
+[2026-03-28T23:25:23.509+0000] {processor.py:161} INFO - Started process (PID=208) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:25:23.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:25:23.515+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:25:23.515+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:25:23.557+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:25:23.601+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:25:23.601+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:25:23.639+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:25:23.638+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:25:23.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.186 seconds
+[2026-03-28T23:25:54.273+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:25:54.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:25:54.282+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:25:54.281+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:25:54.349+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:25:54.422+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:25:54.421+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:25:54.467+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:25:54.466+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:25:54.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.251 seconds
+[2026-03-28T23:26:24.964+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:26:24.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:26:24.977+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:26:24.976+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:26:25.030+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:26:25.074+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:26:25.074+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:26:25.112+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:26:25.112+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:26:25.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.184 seconds
+[2026-03-28T23:26:55.741+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:26:55.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:26:55.747+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:26:55.747+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:26:55.794+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:26:55.835+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:26:55.834+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:26:55.869+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:26:55.868+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:26:55.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.191 seconds
+[2026-03-28T23:27:26.450+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:27:26.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:27:26.458+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:27:26.457+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:27:26.513+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:27:26.599+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:27:26.599+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:27:26.678+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:27:26.677+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:27:26.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.316 seconds
+[2026-03-28T23:27:57.769+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:27:57.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:27:57.778+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:27:57.777+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:27:57.836+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:27:57.913+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:27:57.912+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:27:57.964+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:27:57.963+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:27:58.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.283 seconds
+[2026-03-28T23:28:28.703+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:28:28.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:28:28.715+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:28:28.714+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:28:28.843+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:28:28.929+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:28:28.928+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:28:29.000+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:28:28.999+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:28:29.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.408 seconds
+[2026-03-28T23:28:33.189+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:28:33.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:28:33.197+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:28:33.196+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:28:33.268+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:28:33.448+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:28:33.448+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:28:33.490+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:28:33.489+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:28:33.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.413 seconds
+[2026-03-28T23:29:04.244+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:29:04.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:29:04.250+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:29:04.249+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:29:04.295+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:29:04.363+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:29:04.362+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:29:04.453+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:29:04.452+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:29:04.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.359 seconds
+[2026-03-28T23:29:35.163+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:29:35.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:29:35.169+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:29:35.168+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:29:35.222+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:29:35.282+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:29:35.282+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:29:35.329+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:29:35.328+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:29:35.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.217 seconds
+[2026-03-28T23:30:05.883+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:30:05.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:30:05.894+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:30:05.892+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:30:06.170+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:30:06.260+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:30:06.259+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:30:06.346+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:30:06.345+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:30:06.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.540 seconds
+[2026-03-28T23:30:36.831+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:30:36.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:30:36.843+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:30:36.842+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:30:36.957+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:30:37.035+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:30:37.034+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:30:37.090+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:30:37.090+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:30:37.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.338 seconds
+[2026-03-28T23:31:07.483+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:31:07.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:31:07.494+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:31:07.493+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:31:07.554+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:31:07.639+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:31:07.639+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:31:07.712+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:31:07.711+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:31:07.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.315 seconds
+[2026-03-28T23:31:38.632+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:31:38.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:31:38.641+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:31:38.640+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:31:38.775+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:31:38.904+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:31:38.903+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:31:39.014+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:31:39.013+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:31:39.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.470 seconds
+[2026-03-28T23:31:46.318+0000] {processor.py:161} INFO - Started process (PID=286) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:31:46.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:31:46.327+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:31:46.326+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:31:46.438+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:31:46.510+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:31:46.510+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:31:46.556+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:31:46.556+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:31:46.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.312 seconds
+[2026-03-28T23:32:16.750+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:32:16.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:32:16.759+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:32:16.758+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:32:16.811+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:32:16.891+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:32:16.890+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:32:16.986+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:32:16.985+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:32:17.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.598 seconds
+[2026-03-28T23:32:47.783+0000] {processor.py:161} INFO - Started process (PID=302) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:32:47.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:32:47.787+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:32:47.787+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:32:47.831+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:32:47.869+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:32:47.869+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:32:47.894+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:32:47.894+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:32:47.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.144 seconds
+[2026-03-28T23:33:18.336+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:33:18.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:33:18.352+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:33:18.351+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:33:18.438+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:33:18.584+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:33:18.583+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:33:18.684+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:33:18.684+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:33:18.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.432 seconds
+[2026-03-28T23:33:49.145+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:33:49.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:33:49.153+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:33:49.152+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:33:49.223+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:33:49.291+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:33:49.290+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:33:49.354+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:33:49.353+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:33:49.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.293 seconds
+[2026-03-28T23:34:50.793+0000] {processor.py:161} INFO - Started process (PID=168) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:34:50.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:34:50.799+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:34:50.799+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:34:50.878+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:34:51.537+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:34:51.536+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:turtle_pipeline
+[2026-03-28T23:34:51.565+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:34:51.565+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:turtle_pipeline
+[2026-03-28T23:34:51.584+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:34:51.583+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:turtle_pipeline
+[2026-03-28T23:34:51.586+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:34:51.586+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:34:51.622+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:34:51.621+0000] {dag.py:3118} INFO - Creating ORM DAG for turtle_pipeline
+[2026-03-28T23:34:51.653+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:34:51.653+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:34:51.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.918 seconds
+[2026-03-28T23:35:22.250+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:35:22.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:35:22.258+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:35:22.257+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:35:22.315+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:35:22.397+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:35:22.397+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:35:22.461+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:35:22.461+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:35:22.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.259 seconds
+[2026-03-28T23:35:52.958+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:35:52.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:35:52.967+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:35:52.966+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:35:53.043+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:35:53.115+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:35:53.114+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:35:53.181+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:35:53.180+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:35:53.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.338 seconds
+[2026-03-28T23:36:23.479+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:36:23.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:36:23.488+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:36:23.487+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:36:23.554+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:36:23.629+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:36:23.628+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:36:23.695+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:36:23.694+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:36:23.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.282 seconds
+[2026-03-28T23:36:54.352+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:36:54.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:36:54.366+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:36:54.365+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:36:54.509+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:36:54.593+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:36:54.592+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:36:54.636+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:36:54.636+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:36:54.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.338 seconds
+[2026-03-28T23:37:25.061+0000] {processor.py:161} INFO - Started process (PID=199) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:37:25.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:37:25.070+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:37:25.069+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:37:25.163+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:37:25.277+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:37:25.276+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:37:25.350+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:37:25.349+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:37:25.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.433 seconds
+[2026-03-28T23:37:56.211+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:37:56.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:37:56.218+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:37:56.216+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:37:56.325+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:37:56.411+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:37:56.410+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:37:56.449+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:37:56.448+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:37:56.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.287 seconds
+[2026-03-28T23:38:27.011+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:38:27.014+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:38:27.020+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:38:27.019+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:38:27.074+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:38:27.129+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:38:27.128+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:38:27.186+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:38:27.185+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:38:27.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.234 seconds
+[2026-03-28T23:38:57.528+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:38:57.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:38:57.535+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:38:57.535+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:38:57.575+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:38:57.622+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:38:57.622+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:38:57.655+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:38:57.654+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:38:57.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.181 seconds
+[2026-03-28T23:39:28.169+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:39:28.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:39:28.177+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:39:28.176+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:39:28.268+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:39:28.374+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:39:28.373+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:39:28.438+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:39:28.437+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:39:28.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.329 seconds
+[2026-03-28T23:39:59.183+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:39:59.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:39:59.204+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:39:59.203+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:39:59.410+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:39:59.509+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:39:59.509+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:39:59.590+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:39:59.590+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:39:59.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.518 seconds
+[2026-03-28T23:40:30.347+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:40:30.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:40:30.362+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:40:30.360+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:40:30.433+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:40:30.525+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:40:30.524+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:40:30.592+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:40:30.591+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:40:30.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.345 seconds
+[2026-03-28T23:41:01.260+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:41:01.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:41:01.267+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:41:01.266+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:41:01.330+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:41:01.435+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:41:01.435+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:41:01.514+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:41:01.514+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:41:01.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.341 seconds
+[2026-03-28T23:41:32.279+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:41:32.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:41:32.296+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:41:32.295+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:41:32.435+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:41:32.515+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:41:32.515+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:41:32.582+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:41:32.581+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:41:32.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.388 seconds
+[2026-03-28T23:42:03.026+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:42:03.029+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:42:03.039+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:42:03.038+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:42:03.159+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:42:03.214+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:42:03.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:42:03.264+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:42:03.263+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:42:03.328+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.324 seconds
+[2026-03-28T23:42:33.795+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:42:33.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:42:33.801+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:42:33.801+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:42:33.849+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:42:33.920+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:42:33.920+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:42:34.080+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:42:34.080+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:42:34.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.373 seconds
+[2026-03-28T23:43:04.743+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:43:04.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:43:04.776+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:43:04.775+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:43:04.908+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:43:04.966+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:43:04.965+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:43:05.034+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:43:05.033+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:43:05.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.352 seconds
+[2026-03-28T23:43:35.710+0000] {processor.py:161} INFO - Started process (PID=259) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:43:35.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:43:35.722+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:43:35.720+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:43:35.795+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:43:35.883+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:43:35.881+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:43:35.944+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:43:35.942+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:43:36.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.322 seconds
+[2026-03-28T23:44:06.680+0000] {processor.py:161} INFO - Started process (PID=264) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:44:06.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:44:06.693+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:44:06.692+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:44:06.745+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:44:06.801+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:44:06.801+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:44:06.885+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:44:06.884+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:44:06.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.264 seconds
+[2026-03-28T23:44:37.298+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:44:37.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:44:37.304+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:44:37.303+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:44:37.372+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:44:37.440+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:44:37.439+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:44:37.480+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:44:37.479+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:44:37.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.231 seconds
+[2026-03-28T23:45:08.605+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:45:08.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:45:08.615+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:45:08.614+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:45:08.677+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:45:08.753+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:45:08.753+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:45:08.902+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:45:08.901+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:45:08.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.388 seconds
+[2026-03-28T23:45:39.644+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:45:39.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:45:39.653+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:45:39.652+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:45:39.717+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:45:39.783+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:45:39.782+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:45:39.847+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:45:39.847+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:45:39.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.282 seconds
+[2026-03-28T23:46:10.301+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:46:10.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:46:10.308+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:46:10.308+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:46:10.392+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:46:10.469+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:46:10.469+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:46:10.599+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:46:10.599+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:46:10.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.390 seconds
+[2026-03-28T23:46:40.839+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:46:40.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:46:40.845+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:46:40.845+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:46:40.970+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:46:41.042+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:46:41.041+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:46:41.080+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:46:41.080+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:46:41.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.324 seconds
+[2026-03-28T23:47:11.638+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:47:11.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:47:11.643+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:47:11.643+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:47:11.711+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:47:11.770+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:47:11.769+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:47:11.833+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:47:11.832+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:47:11.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.285 seconds
+[2026-03-28T23:47:42.806+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:47:42.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:47:42.847+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:47:42.846+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:47:42.925+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:47:42.993+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:47:42.992+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:47:43.034+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:47:43.033+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:47:43.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.310 seconds
+[2026-03-28T23:48:13.268+0000] {processor.py:161} INFO - Started process (PID=310) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:48:13.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:48:13.276+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:48:13.275+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:48:13.349+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:48:13.434+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:48:13.433+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:48:13.479+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:48:13.479+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:48:13.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.295 seconds
+[2026-03-28T23:48:43.913+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:48:43.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:48:43.918+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:48:43.917+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:48:43.992+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:48:44.028+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:48:44.027+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:48:44.074+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:48:44.073+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:48:44.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.203 seconds
+[2026-03-28T23:49:14.722+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:49:14.726+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:49:14.735+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:49:14.734+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:49:14.827+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:49:14.888+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:49:14.887+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:49:14.939+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:49:14.938+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:49:15.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.290 seconds
+[2026-03-28T23:49:45.457+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:49:45.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:49:45.467+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:49:45.466+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:49:45.511+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:49:45.571+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:49:45.570+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:49:45.627+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:49:45.626+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:49:45.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.226 seconds
+[2026-03-28T23:50:15.836+0000] {processor.py:161} INFO - Started process (PID=330) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:50:15.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:50:15.843+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:50:15.843+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:50:15.897+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:50:15.954+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:50:15.954+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:50:15.992+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:50:15.991+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:50:16.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.206 seconds
+[2026-03-28T23:50:46.719+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:50:46.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:50:46.738+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:50:46.737+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:50:46.822+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:50:46.905+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:50:46.904+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:50:46.967+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:50:46.967+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:50:47.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.329 seconds
+[2026-03-28T23:51:17.296+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:51:17.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:51:17.303+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:51:17.302+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:51:17.365+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:51:17.438+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:51:17.437+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:51:17.501+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:51:17.500+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:51:17.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.280 seconds
+[2026-03-28T23:51:48.260+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:51:48.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:51:48.271+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:51:48.270+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:51:48.358+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:51:48.447+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:51:48.447+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:51:48.538+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:51:48.537+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:51:48.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.374 seconds
+[2026-03-28T23:52:19.040+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:52:19.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:52:19.047+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:52:19.046+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:52:19.101+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:52:19.154+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:52:19.154+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:52:19.192+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:52:19.191+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:52:19.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.203 seconds
+[2026-03-28T23:52:49.961+0000] {processor.py:161} INFO - Started process (PID=367) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:52:49.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:52:50.020+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:52:50.019+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:52:50.447+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:52:50.542+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:52:50.541+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:52:50.606+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:52:50.605+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:52:50.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.708 seconds
+[2026-03-28T23:53:20.790+0000] {processor.py:161} INFO - Started process (PID=372) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:53:20.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:53:20.797+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:53:20.797+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:53:20.887+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:53:20.963+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:53:20.963+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:53:21.006+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:53:21.006+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:53:21.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.280 seconds
+[2026-03-28T23:53:51.583+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:53:51.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:53:51.624+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:53:51.623+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:53:51.703+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:53:51.772+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:53:51.771+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:53:51.831+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:53:51.830+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:53:51.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.326 seconds
+[2026-03-28T23:54:22.450+0000] {processor.py:161} INFO - Started process (PID=382) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:54:22.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:54:22.460+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:54:22.459+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:54:22.543+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:54:22.620+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:54:22.620+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:54:22.691+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:54:22.690+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:54:22.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.335 seconds
+[2026-03-28T23:54:53.539+0000] {processor.py:161} INFO - Started process (PID=387) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:54:53.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:54:53.547+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:54:53.546+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:54:53.592+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:54:53.652+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:54:53.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:54:53.694+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:54:53.693+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:54:53.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.205 seconds
+[2026-03-28T23:55:24.032+0000] {processor.py:161} INFO - Started process (PID=392) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:55:24.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:55:24.039+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:55:24.038+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:55:24.137+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:55:24.196+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:55:24.195+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:55:24.242+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:55:24.241+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:55:24.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.270 seconds
+[2026-03-28T23:55:54.841+0000] {processor.py:161} INFO - Started process (PID=397) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:55:54.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:55:54.862+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:55:54.862+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:55:54.999+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:55:55.116+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:55:55.115+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:55:55.171+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:55:55.170+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:55:55.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.386 seconds
+[2026-03-28T23:56:26.079+0000] {processor.py:161} INFO - Started process (PID=402) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:56:26.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:56:26.086+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:56:26.085+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:56:26.135+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:56:26.185+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:56:26.184+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:56:26.231+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:56:26.230+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:56:26.288+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.223 seconds
+[2026-03-28T23:56:56.617+0000] {processor.py:161} INFO - Started process (PID=407) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:56:56.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:56:56.626+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:56:56.625+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:56:56.684+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:56:56.760+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:56:56.760+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:56:56.815+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:56:56.814+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:56:56.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.273 seconds
+[2026-03-28T23:57:27.106+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:57:27.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:57:27.113+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:57:27.112+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:57:27.170+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:57:27.264+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:57:27.263+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:57:27.315+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:57:27.314+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:57:27.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.285 seconds
+[2026-03-28T23:57:57.838+0000] {processor.py:161} INFO - Started process (PID=417) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:57:57.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:57:57.854+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:57:57.852+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:57:57.956+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:57:58.019+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:57:58.019+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:57:58.071+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:57:58.070+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:57:58.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.303 seconds
+[2026-03-28T23:58:28.861+0000] {processor.py:161} INFO - Started process (PID=422) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:58:28.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:58:28.880+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:58:28.879+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:58:28.944+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:58:29.020+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:58:29.019+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:58:29.077+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:58:29.076+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-15 00:00:00+00:00, run_after=2026-03-22 00:00:00+00:00
+[2026-03-28T23:58:29.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.302 seconds
+[2026-03-28T23:59:00.446+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:59:00.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:59:00.488+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:59:00.485+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:59:00.644+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:59:00.802+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:59:00.801+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:59:00.895+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:59:00.894+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:59:00.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.581 seconds
+[2026-03-28T23:59:31.571+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:59:31.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/turtle_pipeline.py for tasks to queue
+[2026-03-28T23:59:31.591+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:59:31.580+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:59:31.750+0000] {processor.py:840} INFO - DAG(s) 'turtle_pipeline' retrieved from /opt/airflow/dags/turtle_pipeline.py
+[2026-03-28T23:59:31.899+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:59:31.898+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T23:59:32.085+0000] {logging_mixin.py:188} INFO - [2026-03-28T23:59:32.084+0000] {dag.py:3954} INFO - Setting next_dagrun for turtle_pipeline to 2026-03-22 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-28T23:59:32.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/turtle_pipeline.py took 0.625 seconds

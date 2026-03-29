@@ -53,7 +53,7 @@ def fetch_obis_species(taxon_id: int, species_key: str):
     return all_records
 
 
-def upload_to_gcs(records: list, species_key: str, chunk_size: int = 5000):
+def upload_to_gcs(records: list, species_key: str, chunk_size: int = 1000):
     """Upload raw JSON records to GCS bronze bucket in chunks."""
     client = storage.Client()
     bucket = client.bucket(BUCKET_NAME)
