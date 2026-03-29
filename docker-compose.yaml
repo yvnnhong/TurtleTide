@@ -11,12 +11,15 @@ x-airflow-common:
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     GOOGLE_APPLICATION_CREDENTIALS: /opt/airflow/turtletide-key.json
+    _PIP_ADDITIONAL_REQUIREMENTS: 'dbt-core dbt-bigquery'
   volumes:
     - ./dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - ./spark:/opt/airflow/spark
     - ./turtletide-key.json:/opt/airflow/turtletide-key.json
+    - ./turtletide:/opt/airflow/turtletide
+    - ./dbt_profiles:/opt/airflow/dbt_profiles
   depends_on:
     postgres:
       condition: service_healthy

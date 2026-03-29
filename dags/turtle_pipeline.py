@@ -131,12 +131,12 @@ with DAG(
 
     run_dbt_models = BashOperator(
         task_id='run_dbt_models',
-        bash_command='echo "dbt models — stub"',
+        bash_command='cd /opt/airflow/turtletide && dbt run --profiles-dir /opt/airflow/dbt_profiles',
     )
 
     run_dbt_tests = BashOperator(
         task_id='run_dbt_tests',
-        bash_command='echo "dbt tests — stub"',
+        bash_command='cd /opt/airflow/turtletide && dbt test --profiles-dir /opt/airflow/dbt_profiles',
     )
 
     score_anomalies = PythonOperator(
