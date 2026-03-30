@@ -87,6 +87,9 @@ selected_common = st.sidebar.multiselect(
     default=list(SPECIES_MAP.keys()) + ["Other"]
 )
 
+life_stage_options = sorted(df["life_stage_clean"].unique().tolist())
+selected_life_stages = st.sidebar.multiselect("Life Stage", life_stage_options, default=life_stage_options)
+
 filtered_df = df[
     df["common_name"].isin(selected_common) &
     df["life_stage_clean"].isin(selected_life_stages)
