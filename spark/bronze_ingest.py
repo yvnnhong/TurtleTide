@@ -16,7 +16,7 @@ SPECIES = {
     "eretmochelys_imbricata": 137772, # Hawksbill
 }
 PAGE_SIZE = 10000
-MAX_RECORDS = 50000 #temporary - remove it after we've verified that the pipeline works 
+MAX_RECORDS = 500000 #subject to change, but dataproc has limits
 
 def fetch_obis_species(taxon_id: int, species_key: str):
     """Fetch all occurrence records for a species from OBIS, paginated."""
