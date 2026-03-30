@@ -6,9 +6,18 @@ import plotly.graph_objects as go
 from google.cloud import bigquery
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.environ.get(
-    "GOOGLE_APPLICATION_CREDENTIALS", "C:/Users/yvonn/TurtleTide/turtletide-key.json"
-)
+import json
+import tempfile
+
+if "gcp" in st.secrets:
+    credentials_dict = json.loads(st.secrets["gcp"]["credentials"])
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False) as f:
+        json.dump(credentials_dict, f)
+        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = f.name
+else:
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.environ.get(
+        "GOOGLE_APPLICATION_CREDENTIALS", "C:/Users/yvonn/TurtleTide/turtletide-key.json"
+    )
 
 PROJECT = "manifest-stream-452700-g7"
 
