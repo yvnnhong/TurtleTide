@@ -5,7 +5,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from google.cloud import bigquery
 import os
-
 import json
 import tempfile
 
@@ -21,11 +20,7 @@ else:
 
 PROJECT = "manifest-stream-452700-g7"
 
-st.set_page_config(
-    page_title="TurtleTide",
-    page_icon="🐢",
-    layout="wide"
-)
+st.set_page_config(page_title="TurtleTide", page_icon="🐢", layout="wide")
 
 st.title("TurtleTide")
 st.caption("Sea turtle occurrence dashboard powered by OBIS, Delta Lake, dbt, and BigQuery")
@@ -59,27 +54,28 @@ with st.spinner("Loading turtle data..."):
 
 st.success(f"Loaded {len(df):,} sightings")
 
-# ── Sidebar filters ────────────────────────────────────────────────
-st.sidebar.header("Filters")
-
+# ── Species mapping ────────────────────────────────────────────────
 SPECIES_MAP = {
-    "Leatherback": ["Dermochelys coriacea"],
-    "Green Turtle": ["Chelonia mydas"],
-    "Loggerhead": ["Caretta caretta"],
-    "Hawksbill": ["Eretmochelys imbricata"],
+    "Leatherback": "dermochelys coriacea",
+    "Green Turtle": "chelonia mydas",
+    "Loggerhead": "caretta caretta",
+    "Hawksbill": "eretmochelys imbricata",
 }
 
-# Build reverse map: scientific name → common name
-all_scientific = df["scientific_name"].dropna().unique().tolist()
 def map_to_common(sci_name):
-    for common, variants in SPECIES_MAP.items():
-        for v in variants:
-            if v.lower() in sci_name.lower():
-                return common
+    if pd.isna(sci_name):
+        return "Other"
+    sci_lower = sci_name.lower()
+    for common, pattern in SPECIES_MAP.items():
+        if pattern in sci_lower:
+            return common
     return "Other"
 
 df["common_name"] = df["scientific_name"].apply(map_to_common)
 df["life_stage_clean"] = df["life_stage"].fillna("Unknown")
+
+# ── Sidebar filters ────────────────────────────────────────────────
+st.sidebar.header("Filters")
 
 selected_common = st.sidebar.multiselect(
     "Species",
@@ -88,20 +84,12 @@ selected_common = st.sidebar.multiselect(
 )
 
 life_stage_options = sorted(df["life_stage_clean"].unique().tolist())
-selected_life_stages = st.sidebar.multiselect("Life Stage", life_stage_options, default=life_stage_options)
+selected_life_stages = st.sidebar.multiselect(
+    "Life Stage", life_stage_options, default=life_stage_options
+)
 
 filtered_df = df[
     df["common_name"].isin(selected_common) &
-    df["life_stage_clean"].isin(selected_life_stages)
-]
-
-# normalize life stage for filtering
-df["life_stage_clean"] = df["life_stage"].fillna("Unknown")
-life_stage_options = sorted(df["life_stage_clean"].unique().tolist())
-selected_life_stages = st.sidebar.multiselect("Life Stage", life_stage_options, default=life_stage_options)
-
-filtered_df = df[
-    df["scientific_name"].isin(selected_species) &
     df["life_stage_clean"].isin(selected_life_stages)
 ]
 
@@ -167,11 +155,11 @@ with col1:
     st.plotly_chart(fig, use_container_width=True)
 
 with col2:
-    scatter_data = filtered_df[["sea_surface_temp", "depth", "scientific_name"]].dropna()
+    scatter_data = filtered_df[["sea_surface_temp", "depth", "common_name"]].dropna()
     fig = px.scatter(scatter_data, x="sea_surface_temp", y="depth",
-                     color="scientific_name",
+                     color="common_name",
                      title="SST vs Depth",
-                     labels={"sea_surface_temp": "SST (C)", "depth": "Depth (m)"},
+                     labels={"sea_surface_temp": "SST (C)", "depth": "Depth (m)", "common_name": "Species"},
                      opacity=0.5,
                      color_discrete_sequence=["#00b49c", "#0068c9", "#00d4ff", "#7b2fff"])
     st.plotly_chart(fig, use_container_width=True)
