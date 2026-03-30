@@ -62,8 +62,34 @@ st.success(f"Loaded {len(df):,} sightings")
 # ── Sidebar filters ────────────────────────────────────────────────
 st.sidebar.header("Filters")
 
-species_options = sorted(df["scientific_name"].dropna().unique().tolist())
-selected_species = st.sidebar.multiselect("Species", species_options, default=species_options)
+SPECIES_MAP = {
+    "Leatherback": ["Dermochelys coriacea"],
+    "Green Turtle": ["Chelonia mydas"],
+    "Loggerhead": ["Caretta caretta"],
+    "Hawksbill": ["Eretmochelys imbricata"],
+}
+
+# Build reverse map: scientific name → common name
+all_scientific = df["scientific_name"].dropna().unique().tolist()
+def map_to_common(sci_name):
+    for common, variants in SPECIES_MAP.items():
+        for v in variants:
+            if v.lower() in sci_name.lower():
+                return common
+    return "Other"
+
+df["common_name"] = df["scientific_name"].apply(map_to_common)
+
+selected_common = st.sidebar.multiselect(
+    "Species",
+    list(SPECIES_MAP.keys()) + ["Other"],
+    default=list(SPECIES_MAP.keys()) + ["Other"]
+)
+
+filtered_df = df[
+    df["common_name"].isin(selected_common) &
+    df["life_stage_clean"].isin(selected_life_stages)
+]
 
 # normalize life stage for filtering
 df["life_stage_clean"] = df["life_stage"].fillna("Unknown")
