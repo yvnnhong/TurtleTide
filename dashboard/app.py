@@ -79,6 +79,7 @@ def map_to_common(sci_name):
     return "Other"
 
 df["common_name"] = df["scientific_name"].apply(map_to_common)
+df["life_stage_clean"] = df["life_stage"].fillna("Unknown")
 
 selected_common = st.sidebar.multiselect(
     "Species",
